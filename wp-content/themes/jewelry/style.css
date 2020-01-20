@@ -1,0 +1,183 @@
+/*
+Theme Name: Jewelry
+Theme URI: n/a?
+Author: Alivia Gould
+Author URI: n/a?
+Description: Basic WordPress theme for Testing purposes
+Text Domain: ???
+Version: 1.0.0
+License: GNU General Public License v2 or later
+*/
+
+
+html, body {
+    font-family: 'Lato', sans-serif;
+    color: #4f4f4f;
+}
+
+p {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 3rem;
+}
+
+
+h2 {
+    font-weight: 300;
+    font-size: 1.8rem;
+    letter-spacing: 9px;
+    text-align: center;
+    margin: 4rem;
+    padding-left: 18px;
+    text-transform: uppercase;
+    color: #4f4f4f;
+}
+
+h3 {
+    font-family: 'Abril Fatface', serif;
+    text-align: center;
+    margin-bottom: .8rem;
+   
+}
+
+
+/* ===============================
+NAVBAR
+================================== */
+
+.navbar {
+    padding: 2rem;
+    background-color: #4f4f4f;
+}
+
+.navbar-nav a {
+    text-transform: uppercase;
+    font-size: .8rem;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.navbar-nav a:hover {
+    color:#e4f3fc;
+}
+
+.navbar-toggler {
+    color: white;
+    font-size: 1.8rem;
+}
+
+.dropdown-menu {
+    background-color: #4f4f4f;
+    text-align: right;
+}
+
+.dropdown-menu a:hover {
+    background-color: white;
+    color: #4f4f4f;
+}
+
+/* ===============================
+HERO
+================================== */
+
+.site-title-group {
+    color: white;
+}
+
+.site-title-group h1 {
+    font-family: 'Abril Fatface', serif;
+    margin-bottom: 0;
+}
+
+.site-title-group h3 {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 6.8px;
+    font-weight: 400;
+}
+
+
+.wp-block-cover .has-large-font-size  {
+    font-family: 'Abril Fatface', serif;
+}
+
+.wp-block-cover h3 {
+    margin-bottom: .5rem;
+    padding-left: 10%;
+}
+
+.wp-block-cover p {
+    margin-left: 12%;
+    margin-right: 12%;
+    margin: 0;
+    padding-left: 10%; 
+    color: #4f4f4f;
+}
+
+
+/* ===============================
+GALLERIES
+================================== */
+
+.wp-block-gallery {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.blocks-gallery-grid .blocks-gallery-item {
+    border: 2px solid #dddddd;
+    margin-bottom: 50px; 
+}
+
+.blocks-gallery-grid .blocks-gallery-image figcaption, .blocks-gallery-grid .blocks-gallery-item figcaption, .wp-block-gallery .blocks-gallery-image figcaption, .wp-block-gallery .blocks-gallery-item figcaption {
+    display: block;
+    position: absolute;
+    bottom: -35px; 
+    width: 100%;
+    max-height: 100%;
+    overflow: auto;
+    padding: 40px 10px 9px;
+    color: black;
+    text-align: center;
+    font-size: 13px;
+    background: none;
+}
+
+
+/* For displaying single column on mobile */
+@media only screen and (max-width: 520px) {
+    .wp-block-gallery.columns-2 .blocks-gallery-item {
+        width: calc((100%));
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+
+/* ===============================
+MEDIA/TEXT - about section
+================================== */
+
+
+.wp-block-media-text .wp-block-media-text__content {
+    padding-top: 20px;
+}
+
+
+
+/* ===============================
+FOOTER
+================================== */
+
+footer {
+    background-color:  #4f4f4f;
+}
+
+#copyright-footer {
+    text-align: center;
+    color: white;
+    padding: 2rem;
+    font-size: .8rem;
+}
